@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التِكنولوجيا
+</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Amiri', serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a40);
+      color: #ffffff;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #121212;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #00ffcc;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background-color: #222;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #00ffe0;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .section {
+      padding: 50px;
+      background-color: #181818;
+      margin: 20px auto;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 1000px;
+      box-shadow: 0 0 20px rgba(0,255,200,0.2);
+    }
+
+    .section h2 {
+      font-size: 2.5em;
+      color: #00ffc3;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.5em;
+      line-height: 2;
+      display: none;
+    }
+
+    .image {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,255,200,0.3);
+    }
+
+    footer {
+      background-color: #111;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    button.scrollTop, .toggleBtn {
+      background-color: #00ffc3;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button.scrollTop {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>التِكنولوجيا
+        
+    </h1>
+  </header>
+
+  <nav>
+    <a href="#ai">الذكاء الاصطناعي</a>
+    <a href="#vr">الواقع الافتراضي</a>
+    <a href="#smart">الأجهزة الذكية</a>
+    <a href="#news">أخبار تقنية</a>
+    <a href="#arabtech">ابتكار عربي</a>
+  </nav>
+
+  <div class="section" id="ai">
+    <h2>الذكاء الاصطناعي</h2>
+    <button class="toggleBtn">عرض/إخفاء المعلومات</button>
+    <p>الذكاء الاصطناعي هو مستقبل التقنية. من التعلُّم العميق إلى النماذج التوليدية، يستخدم اليوم في تحليل البيانات، والتعرف على الصور، وتوليد النصوص، وتشغيل الآلات الذكية.</p>
+    <div class="image">
+     
+    </div>
+  </div>
+
+  <div class="section" id="vr">
+    <h2>الواقع الافتراضي</h2>
+    <button class="toggleBtn">عرض/إخفاء المعلومات</button>
+    <p>الواقع الافتراضي غيّر طريقة تفاعلنا مع الألعاب، التعليم، وحتى الطب. باستخدام نظارات الواقع الافتراضي، يمكن الدخول إلى عوالم غامرة وتفاعلية.</p>
+    <div class="image">
+      
+    </div>
+  </div>
+
+  <div class="section" id="smart">
+    <h2>الأجهزة الذكية</h2>
+    <button class="toggleBtn">عرض/إخفاء المعلومات</button>
+    <p>من الهواتف إلى المنازل الذكية، أصبحت الأجهزة جزءاً لا يتجزأ من حياتنا. تقنيات مثل إنترنت الأشياء (IoT) تفتح آفاقًا واسعة للتواصل بين الأجهزة.</p>
+  </div>  
+
+  <div class="section" id="news">
+    <h2>أحدث الأخبار التقنية</h2>
+    <button class="toggleBtn">عرض/إخفاء المعلومات</button>
+    <p>نستعرض معكم أبرز الابتكارات والأخبار في عالم التكنولوجيا، من إطلاق الهواتف الجديدة إلى تطور رقائق المعالجة والحوسبة الكمومية.</p>
+  </div>
+
+  <div class="section" id="arabtech">
+    <h2>التكنولوجيا والابتكار في العالم العربي</h2>
+    <button class="toggleBtn">عرض/إخفاء المعلومات</button>
+    <p>
+      يشهد العالم العربي في السنوات الأخيرة نهضة رقمية متسارعة، حيث أصبحت الابتكارات المحلية في مجالات الذكاء الاصطناعي، والتقنيات المالية، والتعليم الرقمي، محط اهتمام عالمي.
+      من شركات ناشئة في دبي والرياض إلى مبادرات شبابية في القاهرة وتونس، تتبلور منظومة عربية طموحة تُسهم في رسم ملامح المستقبل الرقمي.
+    </p>
+    <p>
+      تسعى الحكومات العربية إلى دعم التحول الرقمي من خلال استراتيجيات وطنية، واستثمارات ضخمة في البنية التحتية، وتشجيع ريادة الأعمال التكنولوجية.
+      كما تلعب الجامعات ومراكز الأبحاث دورًا محوريًا في تطوير حلول تقنية تناسب الخصوصية الثقافية والاقتصادية للمجتمعات العربية.
+    </p>
+    <p>
+      يمثل الابتكار العربي اليوم مصدر إلهام لجيلٍ جديد من المبرمجين والمبدعين الذين لا يكتفون بالاستهلاك، بل يشاركون بفعالية في بناء تقنيات تعالج التحديات المحلية وتنافس عالميًا.
+    </p>
+  </div>
+
+  <footer>
+    © 2025  - تِكنولوجيا
+  </footer>
+
+  <button class="scrollTop" id="scrollTopBtn">↑ للأعلى</button>
+
+  <script>
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.onscroll = () => {
+      scrollTopBtn.style.display = document.documentElement.scrollTop > 300 ? "block" : "none";
+    };
+
+    scrollTopBtn.onclick = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const toggleButtons = document.querySelectorAll('.toggleBtn');
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const pTags = button.parentElement.querySelectorAll('p');
+        pTags.forEach(p => {
+          p.style.display = (p.style.display === 'none' || p.style.display === '') ? 'block' : 'none';
+        });
+      });
+    });
+
+    const titles = document.querySelectorAll('h2');
+    titles.forEach((title, index) => {
+      const originalText = title.textContent;
+      title.textContent = '';
+      let i = 0;
+      const interval = setInterval(() => {
+        title.textContent += originalText[i];
+        i++;
+        if (i === originalText.length) clearInterval(interval);
+      }, 50 + index * 5);
+    });
+  </script>
+</body>
+</html>
